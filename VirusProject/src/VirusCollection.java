@@ -21,8 +21,7 @@ public class VirusCollection {
 				virusList.remove(k);							//equals what the user has inputed
 				k--;											//If it doesn't equal the user input, remove it from the arrayList.
 		}
-															// Michael helped me with this part for filtering the gene filter because it wasn't filtering
-	}														//all of the files correctly. My program thought that a file with ss-RNA met the conditions for DNA
+															// My program thought that a file with ss-RNA met the conditions for DNA
 															//So I had to make a new File that held one Gene type per file. And then I found a way to return 1. */
 		//System.out.println(virusList.size());			A test case to show the size of  the ArrayList after it has been removed
 		//System.out.println(virusList);					A test case to show what viruses got removed.
